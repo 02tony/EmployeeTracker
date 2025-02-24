@@ -1,10 +1,21 @@
 # EmployeeTracker
 An HRMS-style mobile application built with React Native to manage employee profiles, assigned shifts, and attendance summaries
-![Screenshot_1740410669](https://github.com/user-attachments/assets/95265147-2451-4403-8abf-3d9628444fce)
+1.Dashboard UI
+<img width="411" alt="Screenshot 2025-02-24 at 9 06 39 PM" src="https://github.com/user-attachments/assets/fa094353-f850-4a80-ab52-9a57f89a7d0b" />
+<img width="412" alt="Screenshot 2025-02-24 at 9 07 40 PM" src="https://github.com/user-attachments/assets/48ed83f1-87a7-4df7-9db0-729f65ad377b" />
+(DarkMode)
+<img width="410" alt="Screenshot 2025-02-24 at 9 08 14 PM" src="https://github.com/user-attachments/assets/656877b4-d751-4f17-961c-acef0d847074" />
+<img width="408" alt="Screenshot 2025-02-24 at 9 08 52 PM" src="https://github.com/user-attachments/assets/e970a485-9de9-4045-a63c-72e2ff873e85" />
+2.EmplpyeeList Screen
+<img width="413" alt="Screenshot 2025-02-24 at 9 10 16 PM" src="https://github.com/user-attachments/assets/a594e993-fc0a-45d7-acb6-e4c4fbcc9753" />
+<img width="412" alt="Screenshot 2025-02-24 at 9 10 50 PM" src="https://github.com/user-attachments/assets/a6f05cdc-761b-4e0a-9c4b-cb844d025568" />
+<img width="413" alt="Screenshot 2025-02-24 at 9 11 09 PM" src="https://github.com/user-attachments/assets/ba60b8fd-76af-4cfb-a125-9a83798a6c09" />
+<img width="410" alt="Screenshot 2025-02-24 at 9 11 54 PM" src="https://github.com/user-attachments/assets/916cc3a5-5bc1-4b94-b1db-096792b45360" />
+<img width="410" alt="Screenshot 2025-02-24 at 9 12 30 PM" src="https://github.com/user-attachments/assets/43ef794f-acca-4280-9dce-ab093f440312" />
+<img width="410" alt="Screenshot 2025-02-24 at 9 12 58 PM" src="https://github.com/user-attachments/assets/0eca7afd-c937-4206-b4ab-ea67929b21a5" />
+![Screenshot_1740411835](https://github.com/user-attachments/assets/4b1a7e43-4e22-4ee5-8401-649623418f66)
 
-![Screenshot_1740409941](https://github.com/user-attachments/assets/a95aeea1-45a9-466c-ad07-38e6d981ef26)
-![Screenshot_1740410673](https://github.com/user-attachments/assets/95ae1fdc-b8ce-46a7-8864-2e075f9c12e3)
-![Screenshot_1740410677](https://github.com/user-attachments/assets/e2ac3b52-69a4-4e41-8d9c-ce53080c3a75)
-![Screenshot_1740410681](https://github.com/user-attachments/assets/8dca2f47-0b03-4c62-aef4-0cdded367419)
-![Screenshot_1740410684](https://github.com/user-attachments/assets/675fa511-2e61-4a31-99fc-33f285c315a3)
-![Screenshot_1740410691](https://github.com/user-attachments/assets/621d9322-9a42-4909-b40f-cb1a9974a9ba)
+
+
+https://github.com/user-attachments/assets/94620c35-0891-496f-b9aa-b4de34d026a5
+
