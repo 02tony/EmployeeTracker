@@ -34,13 +34,12 @@ cd EmployeeTracker
 npm install
 ```
 
-### 3. Start the Application
-
-To run the app on Android, iOS, or the web:
+### 3. Start the development server
 
 ```bash
-npx expo start  # Then press 'i' for iOS or 'a' for Android
+npx expo start  
 ```
+
 ### 4. Run on specific platforms
 
 To run the app on Android, iOS, or the web:
