@@ -13,11 +13,11 @@ const { width } = Dimensions.get('window');
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
 const AttendancePieChart = ({ data }) => {
-const { theme, toggleTheme } = useTheme();
- 
-  const radius = 50; // Radius of the pie chart
-  const strokeWidth = 100; // Width of the pie chart segments
-  const circumference = 2 * Math.PI * radius; // Circumference of the circle
+  const { theme, toggleTheme } = useTheme();
+
+  const radius = 50; 
+  const strokeWidth = 100;
+  const circumference = 3 * Math.PI * radius; 
 
   // Shared values for animation
   const startAngle = useSharedValue(0);
@@ -31,7 +31,7 @@ const { theme, toggleTheme } = useTheme();
 
   const chartData = [
     { value: present, color: '#01b2af', label: 'Present' },
-    { value: absent, color: '#da02ff', label: 'Absent'},
+    { value: absent, color: '#da02ff', label: 'Absent' },
     { value: late, color: '#ff9800', label: 'Late', },
   ];
 
@@ -43,7 +43,7 @@ const { theme, toggleTheme } = useTheme();
     };
   });
 
-  // Start the animation
+  
   const startAnimation = () => {
     if (isAnimating.current) return;
 
@@ -52,7 +52,7 @@ const { theme, toggleTheme } = useTheme();
     radiusFactor.value = withTiming(1, { duration: 2000, easing: Easing.out(Easing.ease) });
   };
 
-  // Automatically start animation when component mounts
+ 
   useEffect(() => {
     startAnimation();
   }, []);
@@ -85,6 +85,7 @@ const { theme, toggleTheme } = useTheme();
 
             return (
               <React.Fragment key={index}>
+                {/* Pie Segment */}
                 <AnimatedCircle
                   cx={0}
                   cy={0}
@@ -98,6 +99,8 @@ const { theme, toggleTheme } = useTheme();
                   originX="0"
                   originY="0"
                 />
+
+
                 <SvgText
                   x={legendX}
                   y={legendY}
@@ -106,13 +109,14 @@ const { theme, toggleTheme } = useTheme();
                   fontWeight={'900'}
                   textAnchor="middle"
                   alignmentBaseline="middle"
-                  transform={`rotate(${angle}, ${legendX}, ${legendY})`} // Rotate text along with the segment
+                  transform={`rotate(${rotation}, ${legendX}, ${legendY})`}
                 >
-                  {((item.value / total) * 100).toFixed(1)}%
+                  {/* {((item.value / total) * 100).toFixed(1)}% */}
                 </SvgText>
               </React.Fragment>
             );
           })}
+
         </G>
       </Svg>
 
@@ -120,7 +124,7 @@ const { theme, toggleTheme } = useTheme();
         {chartData.map((item, index) => (
           <View key={index} style={styles.legendItem}>
             <View style={[styles.legendColor, { backgroundColor: item.color }]} />
-            <Text style={[styles.legendText,{ color: theme === 'light' ? '#333':'#ADA996',}]}>
+            <Text style={[styles.legendText, { color: theme === 'light' ? '#333' : '#ADA996', }]}>
               {item.label}: {item.value} ({((item.value / total) * 100).toFixed(1)}%)
             </Text>
           </View>
@@ -162,8 +166,8 @@ const styles = StyleSheet.create({
   legendText: {
     fontSize: 14,
     // fontFamily:''
-    
-   fontWeight:600,
+
+    fontWeight: 600,
   },
 });
 
