@@ -41,6 +41,19 @@ To run the app on Android, iOS, or the web:
 ```bash
 npx expo start  # Then press 'i' for iOS or 'a' for Android
 ```
+### 4. Run on specific platforms
+
+To run the app on Android, iOS, or the web:
+
+```bash
+# ios
+npm run ios
+#android
+npm run android
+#web
+npm run web
+
+```
 
 ## 📁 Project Structure
 
