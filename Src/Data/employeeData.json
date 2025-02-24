@@ -1,0 +1,110 @@
+{
+    "dashboard": {
+      "attendanceSummary": {
+        "present": 45,
+        "absent": 8,
+        "late": 3
+      },
+      "upcomingShifts": [
+        {
+          "shiftType": "Morning",
+          "startTime": "08:00 AM",
+          "endTime": "04:00 PM",
+          "assignedEmployees": 20
+        },
+        {
+          "shiftType": "Evening",
+          "startTime": "04:00 PM",
+          "endTime": "12:00 AM",
+          "assignedEmployees": 15
+        },
+        {
+          "shiftType": "Night",
+          "startTime": "12:00 AM",
+          "endTime": "08:00 AM",
+          "assignedEmployees": 10
+        }
+      ],
+      "pendingRequests": [
+        {
+          "type": "Leave",
+          "employeeName": "John Doe",
+          "department": "Engineering",
+          "date": "2025-02-25"
+        },
+        {
+          "type": "Shift Change",
+          "employeeName": "Jane Smith",
+          "department": "Sales",
+          "date": "2025-02-26"
+        }
+      ],
+      "theme": {
+        "darkMode": false,
+        "primaryColor": "#007AFF",
+        "secondaryColor": "#FFFFFF"
+      }
+    },
+    "employees": [
+      {
+        "id": 1,
+        "profilePicture": "https://pixabay.com/vectors/icons-symbol-user-1294545/",
+        "name": "John Doe",
+        "department": "Engineering",
+        "shiftStatus": "Present"
+      },
+      {
+        "id": 2,
+        "profilePicture": "https://via.placeholder.com/100",
+        "name": "Jane Smith",
+        "department": "Sales",
+        "shiftStatus": "Late"
+      },
+      {
+        "id": 3,
+        "profilePicture": "https://via.placeholder.com/100",
+        "name": "Michael Johnson",
+        "department": "HR",
+        "shiftStatus": "Absent"
+      },
+      {
+        "id": 4,
+        "profilePicture": "https://pixabay.com/vectors/icons-symbol-user-1294545/",
+        "name": "Emily Davis",
+        "department": "Finance",
+        "shiftStatus": "Present"
+      }
+    ],
+    "leaveRequests": [
+      {
+        "id": 1,
+        "employeeName": "John Doe",
+        "date": "2025-03-05",
+        "reason": "Medical Appointment",
+        "status": "Pending"
+      },
+      {
+        "id": 2,
+        "employeeName": "Jane Smith",
+        "date": "2025-03-10",
+        "reason": "Personal Work",
+        "status": "Approved"
+      }
+    ],
+    "uiConfig": {
+      "branding": {
+        "appName": "Hajiri",
+        "tagline": "Smart Attendance for Smarter Workplaces",
+        "logo": "https://via.placeholder.com/150"
+      },
+      "animations": {
+        "skeletonLoader": true,
+        "lottieAnimations": true
+      },
+      "settings": {
+        "offlineMode": true,
+        "asyncStorageEnabled": true
+      }
+    }
+  }
+  
